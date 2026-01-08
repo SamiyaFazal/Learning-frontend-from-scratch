@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
+}
+:root {
+    --bg-color: #fff;
+    --text-color: #000;
+    --snd-bg-color: #fff;
+    --main-color: rgb(242, 81, 159);
+
+}
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+/*header section*/
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    background-color: var(--main-color);
+    backdrop-filter: blur(10px);
+    transition: all 0.5 ease;
+}
+.logo {
+    color: var(--bg-color);
+    font-size: 3rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.logo:hover {
+    transform: scale(1.3);
+}
+/*.button1 {
+    position: absolute;
+    left: 16px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}*/
+.navbar a {
+    font-size: 1.85rem;
+    color: var(--bg-color);
+    margin-left: 4rem;
+    font-weight: 700;
+    transition: 0.3s ease ;
+}
+.navbar a:hover,
+.navbar  a:active {
+    color: var(--text-color);
+}
+#menu-icon {
+    font-size: 3.5rem;
+    color: var(--bg-color);
+    cursor: pointer;
+}
