@@ -1,0 +1,42 @@
+.hero-section{
+    height: 100vh;
+    background-image: url(Images/Veiw.jpeg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    position: relative;
+}
+span{
+    font-weight: 700;
+}
+.text-danger {
+  color: #e63946 !important;
+}
+.icons{
+    color: #e63946;
+    font-size: xx-large;
+}
+#about p {
+  line-height: 1.7;
+}
+
+#about h4 {
+  margin-bottom: 10px;
+}
+
+
+
+/*h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.7rem;
+    margin-bottom: 35px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    /* font-weight: 500;
+    margin: 30px 180px; */
+/* } */
+/* h2{
+    margin-left: 250px;
+    font-size: 2rem
+} */ */
