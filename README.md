@@ -1,2 +1,2 @@
 # Learning-frontend-from-scratch
-A public log of my progress learning HTML, CSS, and web design.
+Learning frontend development from scratch through hands-on practice with HTML, CSS, Bootstrap, and Git.
