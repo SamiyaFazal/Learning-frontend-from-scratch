@@ -1,6 +1,6 @@
 # 📘 Learning Frontend From Scratch
 
-Learning frontend development from scratch through hands-on practice with HTML, CSS, and Bootstrap.
+Learning frontend development from scratch through hands-on practice with HTML, CSS, JS and Bootstrap.
 
 ---
 
@@ -21,7 +21,9 @@ This repository is used to practice frontend fundamentals and improve my skills 
 ## 📂 Files
 
 - `Portfolio.html` – Personal portfolio layout  
-- `BS-project.html` – Bootstrap practice project  
+- `BS-project.html` – Bootstrap practice project
+- `Todo-List.html` - Todo-list using JS
+- `Jokepage.html` - Random Jokes generating page using API  
 
 ---
 
