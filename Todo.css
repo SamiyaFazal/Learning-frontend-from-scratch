@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg, rgb(6, 146, 151), rgb(116, 246, 239)
+    );
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    
+    
+}
+.container{
+    border: 2px solid white;
+    width: 90%;
+    max-width: 450px;
+    margin: 100px auto;
+    /* position: fixed;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 50%;  */
+    padding: 40px 20px; 
+    border-radius: 5px; 
+}
+#newtask{
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+#newtask input{
+    width: 70%;
+    height: 40px;
+    font-family: sans-serif;
+    padding: 20px 15px;
+    border: 2px solid rgb(130, 188, 200);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    position: relative;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: rgb(6, 146, 151);
+}
+#newtask button{
+    position: relative;
+    float: right;
+    height: 44px;
+    width: 17%;
+    background-color: rgb(6, 146, 151);
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#tasks{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 9px;
+    width: 100%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+
+}
+.task{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+    border-bottom: 2px solid rgb(149, 236, 236);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.task span{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(6, 146, 151);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
+}
