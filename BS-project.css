@@ -1,10 +1,9 @@
 .hero-section{
-    height: 100vh;
-    background-image: url(Images/Veiw.jpeg);
+    background-image: url(Images/black-bg.jpg);
     background-repeat: no-repeat;
-    background-size: 110%;
-    background-position: center;
-    position: relative;
+    background-size: cover;
+    background-position: center right;
+    min-height: 100svh;
 }
 span{
     font-weight: 700;
@@ -23,6 +22,11 @@ span{
 #about h4 {
   margin-bottom: 10px;
 }
+footer a:hover {
+  color: #dc3545;
+  transition: 0.3s;
+}
+
 
 
 
@@ -39,4 +43,4 @@ span{
 /* h2{
     margin-left: 250px;
     font-size: 2rem
-} */ */
+} */ 
