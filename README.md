@@ -14,6 +14,7 @@ This repository is used to practice frontend fundamentals and improve my skills 
 
 - HTML
 - CSS
+- JS
 - Bootstrap
 
 ---
