@@ -46,7 +46,7 @@ h1{
     border: 2px solid rgb(130, 188, 200);
     border-radius: 3px;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     position: relative;
 }
@@ -57,8 +57,9 @@ h1{
 #newtask button{
     position: relative;
     float: right;
-    height: 44px;
-    width: 17%;
+    height: 34px;
+    width: 15%;
+    /* border-radius: 50px; */
     background-color: rgb(6, 146, 151);
     border: 2px solid white;
     border-radius: 4px;
@@ -93,7 +94,7 @@ h1{
 }
 .task span{
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
 }
 .task button{

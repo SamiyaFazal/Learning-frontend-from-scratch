@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background: url(Images/weather\ BG.jpg);    
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    background-color: rgba(251, 226, 178, 0.6);
+    border-radius: 25px;
+    color: rgb(16, 16, 16);
+    text-align: center;
+    padding: 30px 30px;
+    /* margin-top: 150px; */
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 150px 1rem;
+    max-height: 300px;
+    height: 300px;
+    line-height: 25px;
+}
+.search{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    /* padding: 1em; */
+    /* font-size: 70px; */
+    /* outline: none; */
+    /* background-color: none; */
+}
+.search-bar{
+    /* justify-content: center; */
+    padding: 12px 15px;
+    width: 230px;
+    /*display: flex; */
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+button{
+        border-radius: 30px;
+        /* background: transparent; */
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        height: 40px;
+        width: 40px;
+}
+button:hover{
+    transform:scale(1.1);
+}
